@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: lightgrey;
   margin: 0;
   padding: 0;
 }
@@ -18,6 +18,14 @@ h6 {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+a:focus{
+  outline: 4px solid black;
+}
+.main-nav ul li a:hover{
+  color: darkblue;
+  text-decoration: underline;
 }
 
 img {
@@ -68,4 +76,10 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+.skip-links a{
+  text-decoration: none;
+  /* background-color: azure; */
+  color: black;
+  list-style-type: none;
 }
